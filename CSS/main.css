@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+/* start Menu */
+.menu{
+    width:90%;
+    margin:auto;
+    height:10vh;
+    border:1px solid black;
+    position:relative;
+}
+.menu .design {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    padding:1px;
+    border:1px solid black;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:50px;
+}
+.menu .design-button{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    background:black;
+}
+.menu .delete{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    padding:1px;
+    border:1px solid black;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:100px;
+}
+.menu .delete-button{
+    display:inline-block;
+    border:1px solid black;
+    width:100%;
+    height:100%;
+}
+.menu .design:hover,
+.menu .delete:hover{
+    border:2px solid #777;
+}
+/* End Menu */
+.container{
+    width:90%;
+    margin:auto;
+    height:88vh;
+    border:1px solid black;
+}
+.commas{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.add-comma{
+    display:inline-block;
+    position:absolute;
+    transform: translate(calc(-10px + -50%),-50%);
+    width:10px;
+    height:10px;
+}
+
